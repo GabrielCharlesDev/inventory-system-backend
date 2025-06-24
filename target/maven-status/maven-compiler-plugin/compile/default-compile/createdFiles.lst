@@ -1,0 +1,7 @@
+GCM\inventarios\controlador\ProductoControlador.class
+GCM\inventarios\excepcion\RecursoNoEncontradoExcepcion.class
+GCM\inventarios\servicio\IProductoServicio.class
+GCM\inventarios\servicio\ProductoServicio.class
+GCM\inventarios\modelo\Producto.class
+GCM\inventarios\InventariosApplication.class
+GCM\inventarios\repositorio\ProductoRepositorio.class
