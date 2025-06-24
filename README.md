@@ -21,28 +21,43 @@ RESTful API developed with Spring Boot for managing an inventory system, includi
 ### 1. Clone the repository
 
 git clone https://github.com/GabrielCharlesDev/inventory-system-backend.git
+
 cd inventory-system-backend
 
 
 2. Configure the database
+
 Set your own credentials in src/main/resources/application.properties:
+
 spring.datasource.url=jdbc:mysql://localhost:3306/inventory_db
+
 spring.datasource.username=your_user
+
 spring.datasource.password=your_password
+
 Create the database manually or let Spring generate it if configured.
+
 
 3. Run the project
 
 mvn spring-boot:run
+
 The backend will be available on:
+
 📍 http://localhost:8080/
 
 🔗 Related Frontend
+
 This API is used by the Angular frontend, available here:
-👉 inventory-system-frontend
+
+👉 inventory-system-frontend https://github.com/GabrielCharlesDev/inventory-system-frontend/
 
 👤 Author
+
 Gabriel Charles
+
 📧 gabrielcharlesmz@gmail.com
+
 🔗 LinkedIn https://www.linkedin.com/in/gabrielcharlesdev/
+
 🔗 GitHub https://github.com/GabrielCharlesDev
