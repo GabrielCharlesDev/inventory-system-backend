@@ -25,7 +25,7 @@ git clone https://github.com/GabrielCharlesDev/inventory-system-backend.git
 cd inventory-system-backend
 
 
-2. Configure the database
+### 2. Configure the database
 
 Set your own credentials in src/main/resources/application.properties:
 
@@ -38,7 +38,7 @@ spring.datasource.password=your_password
 Create the database manually or let Spring generate it if configured.
 
 
-3. Run the project
+### 3. Run the project
 
 mvn spring-boot:run
 
@@ -54,7 +54,7 @@ This API is used by the Angular frontend, available here:
 
 👤 Author
 
-Gabriel Charles
+#### Gabriel Charles
 
 📧 gabrielcharlesmz@gmail.com
 
